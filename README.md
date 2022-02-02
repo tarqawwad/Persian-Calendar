@@ -20,7 +20,7 @@
 
 # How to use 
 
-- add component namespace "<add namespace="PersianCalendarComponents.Components" />" to "Views/Web.config" 
+- add component namespace <add namespace="PersianCalendarComponents.Components" /> to "Views/Web.config" 
 - call DatePicker from any View such as : 
 
 @Html.TADatePicker(componentName,value, htmlattribute,onChange, IsRequired, minValue, maxValue)
