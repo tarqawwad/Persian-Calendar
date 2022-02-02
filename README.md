@@ -25,8 +25,3 @@
 
 @Html.TADatePicker(componentName,value, htmlattribute,onChange, IsRequired, minValue, maxValue)
 
-
-
- # ScreenShots
- 
- 
