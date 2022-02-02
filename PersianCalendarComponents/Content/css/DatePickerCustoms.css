@@ -1,0 +1,179 @@
+﻿
+
+/*DatePicker Styles*/
+.TA-datepicker {
+    position: relative;
+    text-align: center;
+}
+
+.TA-PersianCalendar .pdp-default .pdp-header .nextArrow, .TA-PersianCalendar .pdp-default .pdp-header .prevArrow {
+    cursor: pointer;
+    position: absolute;
+    top: 1px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    padding-top: 15px;
+}
+
+.TA-PersianCalendar .pdp-default .days .selday, .TA-PersianCalendar .pdp-default .days .selday:hover {
+    background: #EBEBEB;
+    color: black;
+}
+
+.TA-PersianCalendar .pdp-default .monthSelect, .TA-PersianCalendar .pdp-default .yearSelect, .TA-PersianCalendar .pdp-default .yearSelect li {
+    margin-top: 0px !important;
+    height: 100% !important;
+    background-color: white !important;
+}
+
+.TA-PersianCalendar .pdp-default {
+    -webkit-box-shadow: 0px 0px 0px 0px black !important;
+    -moz-box-shadow: 0px 0px 0px 0px black !important;
+    -ms-box-shadow: 0px 0px 0px 0px black !important;
+    box-shadow: 0px 0px 0px 0px black !important;
+}
+
+    .TA-PersianCalendar .pdp-default .pdp-header {
+        border-top: 0px solid #999;
+        border-left: 0px solid #999;
+        -webkit-border-top-right-radius: 5px !important;
+        -moz-border-top-right-radius: 5px !important;
+        -ms-border-top-right-radius: 5px !important;
+        border-top-right-radius: 5px !important;
+        -webkit-border-top-left-radius: 5px !important;
+        -moz-border-top-left-radius: 5px !important;
+        -ms-border-top-left-radius: 5px !important;
+        border-top-left-radius: 5px !important;
+        border-right: 0px solid #999;
+        border-top: 0.5px solid #DFE1E5;
+        border-left: 0.5px solid #DFE1E5;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        height: 50px !important;
+        font-size: 13px !important;
+        border-right: 0.5px solid #DFE1E5;
+    }
+
+        .TA-PersianCalendar .pdp-default .pdp-header .nextArrow:after {
+            font-size: 10px !important;
+            content: '▶' !important;
+            color: black;
+        }
+
+        .TA-PersianCalendar .pdp-default .pdp-header .prevArrow:after {
+            font-size: 10px !important;
+            content: '◀' !important;
+            color: black;
+        }
+
+    .TA-PersianCalendar .pdp-default .days {
+        border: 0px;
+        -webkit-border-bottom-left-radius: 5px !important;
+        -moz-border-bottom-left-radius: 5px !important;
+        -ms-border-bottom-left-radius: 5px !important;
+        border-bottom-left-radius: 5px !important;
+        -webkit-border-bottom-right-radius: 5px !important;
+        -moz-border-bottom-right-radius: 5px !important;
+        -ms-border-bottom-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+        border-bottom: 0.5px solid #DFE1E5;
+        border-left: 0.5px solid #DFE1E5;
+        border-right: 0.5px solid #DFE1E5;
+    }
+
+        .TA-PersianCalendar .pdp-default .days .day {
+            border: 0px solid white;
+            margin: 1px;
+            height: 35px !important;
+            width: 35px !important;
+            padding-top: 10px !important;
+            font-family: Tajawal;
+        }
+
+            .TA-PersianCalendar .pdp-default .days .day:hover {
+                background: #EBEBEB;
+                color: black;
+                border: 0px solid #DFE1E5;
+            }
+
+        .TA-PersianCalendar .pdp-default .days .nul {
+            border: 1px solid white;
+            background: white;
+            margin: 1px;
+            font-size: 12px !important;
+            width: 35px !important;
+            height: 0px !important;
+            padding-top: 0px !important;
+            line-height: 0px !important;
+        }
+
+        .TA-PersianCalendar .pdp-default .days .friday {
+            margin: 1px;
+            color: black;
+            font-family: Tajawal;
+        }
+
+        .TA-PersianCalendar .pdp-default .days .today {
+            background: white;
+            color: black;
+            width: 35px !important;
+            height: 35px !important;
+            padding-top: 10px !important;
+        }
+
+            .TA-PersianCalendar .pdp-default .days .today:hover {
+                background: white;
+                color: black;
+                border: 0px solid #DFE1E5;
+            }
+
+    .TA-PersianCalendar .pdp-default .dows {
+        background-color: white;
+        color: black;
+        border-left: 0.5px solid #DFE1E5;
+        border-right: 0.5px solid #DFE1E5;
+    }
+
+        .TA-PersianCalendar .pdp-default .dows .dow {
+            margin: 1px;
+            font-family: Tajawal;
+            font-size: 12px !important;
+            width: 35px !important;
+            border: 0px solid #5F5D5D;
+        }
+
+    .TA-PersianCalendar .pdp-default .monthSelect li {
+        border: 0px solid #DFE1E5;
+        width: 33.33% !important;
+        height: 25% !important;
+        padding-top: 8% !important;
+    }
+
+        .TA-PersianCalendar .pdp-default .monthSelect li:hover {
+            background: #DFE1E5 !important;
+            color: black !important;
+            border-color: #DFE1E5 !important;
+        }
+
+    .TA-PersianCalendar .pdp-default .yearSelect li {
+        border: 0px solid #DFE1E5;
+        width: 20% !important;
+        height: 20% !important;
+    }
+
+        .TA-PersianCalendar .pdp-default .yearSelect li:hover {
+            background: #DFE1E5 !important;
+            color: black !important;
+            border-color: #DFE1E5 !important;
+        }
+
+    .TA-PersianCalendar .pdp-default .selected {
+        background: white !important;
+        color: black !important;
+    }
+
+    .TA-PersianCalendar .pdp-default .pdp-footer {
+        display: none;
+    }
